@@ -3,11 +3,18 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;
 }
 .screen-header__icons span {
+  position: relative;
   margin-left: 25px;
+}
+.screen-header__cog__dot {
+  position: absolute;
+  left: 70px;
+  bottom: 30px;
 }
