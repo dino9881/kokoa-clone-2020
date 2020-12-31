@@ -10,11 +10,14 @@
   font-weight: 600;
 }
 .screen-header__icons span {
-  position: relative;
   margin-left: 25px;
 }
+.screen-header__icons:last-child {
+  position: relative;
+}
+
 .screen-header__cog__dot {
   position: absolute;
-  left: 70px;
-  bottom: 30px;
+  right: -5px;
+  bottom: 25px;
 }

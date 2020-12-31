@@ -57,3 +57,7 @@
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(121, 121, 121, 0.3);
 }
+.user-component__subtitle__icon {
+  color: tomato;
+  margin-left: 2px;
+}
